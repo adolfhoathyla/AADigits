@@ -1,0 +1,6 @@
+framework module AADigits {
+  umbrella header "AADigits-umbrella.h"
+
+  export *
+  module * { export * }
+}

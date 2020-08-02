@@ -1,0 +1,16 @@
+PODS:
+  - AADigits (0.1.0)
+
+DEPENDENCIES:
+  - AADigits (from `../`)
+
+EXTERNAL SOURCES:
+  AADigits:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AADigits: f9a3e386eac23b99ee91b8c71dc9e0a44da20d31
+
+PODFILE CHECKSUM: bcc96589d8a3dccd1bff6696e81d2c4cf820becc
+
+COCOAPODS: 1.9.0

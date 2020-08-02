@@ -1,30 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dUP-4k-7DU">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="kU5-ph-ucW">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AADigits_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="dUP-4k-7DU" customClass="ViewController" customModule="AATextFieldDigits" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0EY-rR-dUq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="scx-fh-x0o">
+                                <rect key="frame" x="75.5" y="125" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Kx4-zB-3Vx"/>
+                                    <constraint firstAttribute="height" constant="50" id="cB9-SV-Xgt"/>
+                                </constraints>
+                                <color key="textColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ii7-Bp-WDr">
+                                <rect key="frame" x="133.5" y="125" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="6l5-Ri-HbW"/>
+                                    <constraint firstAttribute="height" constant="50" id="jAb-PR-MiY"/>
+                                </constraints>
+                                <color key="textColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wPQ-LV-VcL">
+                                <rect key="frame" x="249.5" y="125" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="hjc-5o-C3C"/>
+                                    <constraint firstAttribute="height" constant="50" id="vzk-zo-9Mu"/>
+                                </constraints>
+                                <color key="textColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tep-ZR-s8b">
+                                <rect key="frame" x="187.5" y="150" width="0.0" height="0.0"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" id="kCa-HG-a4G"/>
+                                    <constraint firstAttribute="height" id="zff-yJ-XeF"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Nd-60-IpM">
+                                <rect key="frame" x="191.5" y="125" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="J8L-XH-Ap4"/>
+                                    <constraint firstAttribute="height" constant="50" id="lys-XL-TTx"/>
+                                </constraints>
+                                <color key="textColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Tep-ZR-s8b" firstAttribute="centerY" secondItem="scx-fh-x0o" secondAttribute="centerY" id="6TY-T4-jTr"/>
+                            <constraint firstItem="ii7-Bp-WDr" firstAttribute="leading" secondItem="scx-fh-x0o" secondAttribute="trailing" constant="8" id="AGs-1v-cLX"/>
+                            <constraint firstItem="0Nd-60-IpM" firstAttribute="centerY" secondItem="scx-fh-x0o" secondAttribute="centerY" id="Ie1-R2-20U"/>
+                            <constraint firstItem="0Nd-60-IpM" firstAttribute="leading" secondItem="Tep-ZR-s8b" secondAttribute="trailing" constant="4" id="WiZ-nO-Cmq"/>
+                            <constraint firstItem="Tep-ZR-s8b" firstAttribute="leading" secondItem="ii7-Bp-WDr" secondAttribute="trailing" constant="4" id="Wrl-DW-DjA"/>
+                            <constraint firstItem="wPQ-LV-VcL" firstAttribute="leading" secondItem="0Nd-60-IpM" secondAttribute="trailing" constant="8" id="ZqE-Xl-Vtj"/>
+                            <constraint firstItem="ii7-Bp-WDr" firstAttribute="centerY" secondItem="scx-fh-x0o" secondAttribute="centerY" id="cuL-Xb-rif"/>
+                            <constraint firstItem="Tep-ZR-s8b" firstAttribute="centerX" secondItem="0EY-rR-dUq" secondAttribute="centerX" id="fKw-wO-8e1"/>
+                            <constraint firstItem="wPQ-LV-VcL" firstAttribute="centerY" secondItem="scx-fh-x0o" secondAttribute="centerY" id="iIe-Va-gCO"/>
+                            <constraint firstItem="Tep-ZR-s8b" firstAttribute="top" secondItem="0EY-rR-dUq" secondAttribute="top" constant="150" id="vmq-db-ysw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9S5-h4-ijr"/>
                     </view>
+                    <connections>
+                        <outletCollection property="fields" destination="scx-fh-x0o" collectionClass="NSMutableArray" id="VHU-Hn-Ljz"/>
+                        <outletCollection property="fields" destination="ii7-Bp-WDr" collectionClass="NSMutableArray" id="Mun-5J-z1n"/>
+                        <outletCollection property="fields" destination="0Nd-60-IpM" collectionClass="NSMutableArray" id="uYs-ht-0JG"/>
+                        <outletCollection property="fields" destination="wPQ-LV-VcL" collectionClass="NSMutableArray" id="KOH-ht-xIp"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="abc-bQ-bPU" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="103"/>
         </scene>
     </scenes>
 </document>

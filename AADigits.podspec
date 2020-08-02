@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AADigits'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AADigits.'
+  s.summary          = 'AADigits is a component that will help you to control visually and logically the behavior of UITextFields nested in the same logic.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,9 +24,9 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/adolfhoathyla/AADigits'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'adolfhoathyla' => 'adolfho.beserra@invillia.com' }
+  s.author           = { 'adolfhoathyla' => 'adolfo.athyla@gmail.com' }
   s.source           = { :git => 'https://github.com/adolfhoathyla/AADigits.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/a7hyla'
 
   s.ios.deployment_target = '8.0'
 

@@ -22,7 +22,7 @@ pod 'AADigits'
 
 ## Author
 
-adolfhoathyla, adolfho.beserra@invillia.com
+adolfhoathyla, adolfo.athyla@gmail.com
 
 ## License
 
