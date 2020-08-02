@@ -8,6 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AADigits'
+  s.swift_versions   = '4.0'
   s.version          = '0.1.0'
   s.summary          = 'AADigits is a component that will help you to control visually and logically the behavior of UITextFields nested in the same logic.'
 
