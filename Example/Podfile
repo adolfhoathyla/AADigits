@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AADigits_Example' do
+  pod 'AADigits', :path => '../'
+
+  target 'AADigits_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
