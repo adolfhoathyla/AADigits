@@ -13,7 +13,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-AADigits is a component that will help you to control visually and logically the behavior of UITextFields nested in the same logic.
+AADigits is a component that will help you to control visually and logically the behavior of UITextFields nested in the same logic. The number of digits is customizable and according to your need.
+
 AADigits is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
